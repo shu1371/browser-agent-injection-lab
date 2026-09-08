@@ -1,0 +1,13 @@
+# 不进 GitHub 的内容
+article.md
+*.docx
+*.zip
+
+# 运行时产物（复现时会重新生成）
+lab/outputs/
+outputs/
+__pycache__/
+*.pyc
+.DS_Store
+*.err.log
+*.log
